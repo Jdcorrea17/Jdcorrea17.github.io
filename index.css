@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(20, 50, 79);
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+text-align: center;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(20, 50, 79);
+    background-attachment: White;
+}
+button {
+    background-color: white;
+    color: rgb(20, 50, 79);
+    font-weight: bolder;
+
+}
+.bio {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.me {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+.family {
+    height: 400px;
+    width: 350px;
+}
+.icons {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}

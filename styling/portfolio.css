@@ -49,7 +49,7 @@ text-align: center;
 .goals-h3{
     text-align: center;
     width: 70px;
-    height: 40px;
+    height: 42px;
     margin: 0px auto;
 }
 .goals{
@@ -87,12 +87,12 @@ p {
 }
 .project-bio {
     text-align: center;
-    /* border-style: solid; */
     height: auto;
+    font-size: medium;
 }
 .project-info {
     display: flex;
-    height: 400px;
+    height: 350px;
     width: 400px;
     text-align: center;
 }
@@ -159,11 +159,12 @@ p {
         display: flex;
         flex-direction: row;
         border-style: solid;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 1080px;
+        
+        justify-content: center;
+        width: 1040px;
         margin-left: auto;
         margin-right: auto;
+        flex-wrap: wrap;
     }
 form{
     display: flex;
@@ -172,14 +173,6 @@ form{
     margin-right: auto;
 
 }     
-.contact{
-    border-style: solid;
-    height: 200px;
-    width: 400px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 .link{
     width: 50px;
     height: 50px;
@@ -210,14 +203,15 @@ form{
 }
 .icon-links{
     text-align: center;
-    align-content: end;
 }
 .programs{
     text-align: center;
-    width: 140px;
+    width: auto;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    justify-content: space-around;
 }
 .list{
     margin: 0;
@@ -232,17 +226,70 @@ form{
 }
 .sub-btn{
     border-style: solid;
-    width: 80px;
+    border-color: black;
+    height: 30px;
+    width: 200px;
     background-color: black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     font-weight: bolder;
     color: white;
+    font-size: medium;
+    border-radius: 2%;
 }
 .form-sections{
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
+}
+.program-icons{
+    width: 50px;
+    height: 50px;
+    justify-content: space-around;
+}
+input{
+    border-color: black;
+}
+.contact-bgc{
+    border-style: solid;
+    height: 510px;
+    width: 590px;
+    border-radius: 5%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text], select, textarea {
+  width: 500px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: medium;
+}
+.contact {
+  border-radius: 10px;
+  border-style: solid;
+  padding: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+#subject{
+    height: 100px;
+    font-size: large;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+.links-icon{
+    /* border-style: solid; */
+    margin-bottom: 12px;
 }

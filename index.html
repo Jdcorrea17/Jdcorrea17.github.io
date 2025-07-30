@@ -1,272 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./styling/portfolio.css">
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Joshua Correa, Web Developer" />
+  <title>Joshua Correa | Web Developer</title>
+  <link rel="stylesheet" href="/styling/portfolio.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
+  <header>
+    <h1>Joshua Correa</h1>
+    <p>Entry-Level Web Developer | HTML, CSS, JavaScript, Java, Python</p>
+  </header>
 
-    <h1 id="top-page">Portfolio</h1>
-
-    <br>
-    <h2>About Me</h2>
-<div class="bio-section">  
-    <div class="bio">
-        <div class="img-josh">
-            <img src="./images/me.jpeg" alt="image not found" class="josh">
-        </div>
-        <div class="me">
-     
-        <p>My name is Joshua Correa, I am a born and raised Minnesotan. I am a father of two toddlers who inspire me to be better every day. I enjoy playing video games and spending time with my family. I am excited to begin my new career as a Software Engineer. In my DevMountain bootcamp I became a full stack developer/Java developer with a lot of knowledgement, even after the bootcamp I contunine to keep coding, learning, and perfecting my skills.</p>
-        </div>
-        <div class="goals-h3">
-            <h2>Goals</h2>
-        </div>
-        <div class="goals">
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="bio-section">
+        <img src="./images/me.jpeg" alt="Joshua Correa" class="josh" />
+        <p>
+          I’m Joshua Correa, a Minnesota native and father of two who inspire me daily. After completing a software engineering bootcamp at DevMountain in 2022, I’ve continued expanding my skills and passion in Web design. I'm currently an undergrad at Anoka Technical College
+        </p>
+        <div>
+            <h3>Goals</h3>
             <ul>
-                <li>Learn New Programs</li>
-                <li>Obtain Java Developer Job</li>
-                <li>Become Proficient Programmer</li>
+            <li>Master Responsive and Accessible Web Design</li>
+            <li>Contribute to Real-World Projects or Open Source</li>
+            <li>Grow into a Full-Stack Developer Role</li>
             </ul>
         </div>
-    </div>    
-    <div>
-        <img class="family" src="./images/family.jpeg" alt="Photo Not Found">
-    </div>
-</div>
+        <img class="family" src="./images/family_phot.JPG" alt="Family photo" />
+      </div>
+    </section>
 
-<h2>Skills</h2>
-<div class="icons">
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
-    <img title="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-plain.svg" />
-</div>
-  
-<h2>Projects</h2>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML5" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS3" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt="Heroku" />
+      </div>
+    </section>
 
-<div class="project">
-    <div class="description">
-        <h2>Donut Connection</h2>
-      <p class="project-bio">Foundation Capstone Project from the first 8 weeks in DevMountain and Perficients BrightPath Program I create a website Donut Connection for my family shop to show updates about the shop and also on the homepage i added a Randomizer button that once clicked alert website with a random donut for customers to try and to show appreciation to our customer i added some photos at the bottom of my page. Also added a hamburger menu that redirect you to other pages to collect customer reviews and finally added a contact us page that shows the location of our shop and phone number to order before hand.</p>
+    <section id="projects">
+      <h2>Projects</h2>
 
-    <div>
-        <h2 class="list">Programs</h2>
-        <div class="programs">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-        </div>
-    </div>
-
-    <div class="icon-links">
-      <h2 class="links-icon">Links</h2>
-        <a href="https://jd-capstone-project.herokuapp.com/index.html"><ion-icon name="logo-chrome" class="chrome"></ion-icon></a>
-        <a href="https://github.com/Jdcorrea17/Capstone-Project"><ion-icon name="logo-github" class="git"></ion-icon></a>
-        <a href="https://www.youtube.com/watch?v=v2gwLt5TdpQ"><ion-icon name="logo-youtube" class="youtube"></ion-icon></a>
-    </div>
-    </div>
-  <div class="container">
-      <div class="swiper">
-      <div class="swiper-wrapper">
-
-          <div class="swiper-slide"><img src="./images/Homepage.png" alt="Image Not Found" class="donut"></div>
-          <div class="swiper-slide"><img src="./images/Menu.png" alt="Image Not Found" class="donut"></div>
-          <div class="swiper-slide"><img src="./images/Review.png" alt="Image Not Found" class="donut"></div>
+      <article>
+        <h3>Fresh-Kicks</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/photo1.png" alt="Shoe website" /></div>
+            <div class="swiper-slide"><img src="./images/photo2.png" alt="Shoe website" /></div>
+            <div class="swiper-slide"><img src="./images/photo3.png" alt="Shoe website" /></div>
           </div>
           <div class="swiper-pagination"></div>
-
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-      </div>
-  
-  </div>    
-</div> 
-<br>
-
-
-<div class="project">
-  <div class="description">
-    <h2>Real Estate Engineering</h2>
-      <p class="project-bio">Java Specialization Capstone for DevMountain and Hack BrightPath program I created a website called Real Estate Engineering user can create a user and login in. Its main focus to help Real Estate Agents have a separate webpage to keep data on houses that lets you add houses that once added all information will create a card and contains an edit button and keep information up to date and a delete button to remove houses not on the market and finally added a mortgage calculator at the bottom of the page.</p>
-      <div>
-        <h2 class="list">Programs</h2>
-        <div class="programs">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
         </div>
-    </div>
-    <h2 class="links-icon">Links</h2>
-    <div class="icon-links">
-        <a href="https://github.com/Jdcorrea17/Java-Capstone"><ion-icon name="logo-github" class="git"></ion-icon></a>
-        <a href="https://www.youtube.com/watch?v=xLitjkqh2ZY"><ion-icon name="logo-youtube" class="youtube"></ion-icon></a>
-    </div>
-  </div>
-  <div class="container">
-      <div class="swiper">
-      <div class="swiper-wrapper">
+        <p>This website i created for my intro to Web Design Class. Displays the new modern look and attractive design to catch user attention, promotion shoes best selling shoes from top brands. </p>
+        <a href="https://github.com/Jdcorrea17/Shoe-Website">GitHub</a>
+      </article>
 
-          <div class="swiper-slide"><img src="./images/login:register.png" alt="Image Not Found" class="donut"></div>
-          <div class="swiper-slide"><img src="./images/rew.png" alt="Image Not Found" class="donut"></div>
-          <div class="swiper-slide"><img src="./images/rew2.png" alt="Image Not Found" class="donut"></div>
+      <article>
+        <h3>Donut Connection</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/Homepage.png" alt="Homepage" /></div>
+            <div class="swiper-slide"><img src="./images/Menu.png" alt="Menu" /></div>
+            <div class="swiper-slide"><img src="./images/Review.png" alt="Review" /></div>
           </div>
           <div class="swiper-pagination"></div>
-
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-      </div>
-  
-  </div>    
-</div>  
-<br>
+        </div>
+        <p>A website for a family donut shop with randomizer, customer appreciation gallery, and navigation menu.</p>
+        <a href="https://github.com/Jdcorrea17/Capstone-Project">GitHub</a> |
+        <a href="https://www.youtube.com/watch?v=v2gwLt5TdpQ">Demo Video</a>
+      </article>
 
-<div class="project">
-    <div class="description">
-        <h2>Summer Snow</h2>
-        <p class="project-bio">Created this website for my brother-in law Landscaping business. Although very simple but clean UI I wanted it's main focus to look professional and added some function like clickable phone numbers, and form for easy email contact serivce. Lastly I played around a lot with the css to make sure the application worked well in different devices.</p>
-        <div>
-          <h2 class="list">Programs</h2>
-          <div class="programs">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" class="program-icons" alt="Image not found"/>
-          </div>
-      </div>
-      <h2 class="links-icon">Links</h2>
-      <div class="icon-links">
-          <a href="https://summer-snow-llc-shakopeemn.herokuapp.com/"><ion-icon name="logo-chrome" class="chrome"></ion-icon></a>
-          <a href="https://github.com/Jdcorrea17/Landscaping-LLC"><ion-icon name="logo-github" class="git"></ion-icon></a>
-      </div>
-    </div>
-    <div class="container">
+      <article>
+        <h3>Real Estate Engineering</h3>
         <div class="swiper">
-        <div class="swiper-wrapper">
-  
-            <div class="swiper-slide"><img src="./images/ssl.png" alt="Image Not Found" class="donut"></div>
-            <div class="swiper-slide"><img src="./images/ssl2.png" alt="Image Not Found" class="donut"></div>
-            <div class="swiper-slide"><img src="./images/ssl3.png" alt="Image Not Found" class="donut"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-  
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <br>
-    </div>    
-  </div>  
-  <br>
-  <div class="project">
-    <div class="description">
-      <h2>Budget App</h2>
-        <p class="project-bio">My first react application was along side a Udemy a walkthrough with Maximilian professional web developer and instructor. The app is a simple budget app that lets you add expenses and filter them by year, and displays months with expenses. I played a lot with the UI and code to see what other things React you could do.</p>
-        <div>
-          <h2 class="list">Programs</h2>
-          <div class="programs">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" class="program-icons" alt="Image not found"/>
-
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/rew.png" alt="RE App 1" /></div>
+            <div class="swiper-slide"><img src="./images/rew2.png" alt="RE App 2" /></div>
           </div>
-      </div>
-      <h2 class="links-icon">Links</h2>
-      <div class="icon-links">
-          <a href="https://github.com/Jdcorrea17/React-Budget"><ion-icon name="logo-github" class="git"></ion-icon></a>
-      </div>
-    </div>
-    <div class="container">
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <p>Spring Boot app for real estate agents to manage listings, including edit/delete features and mortgage calculator.</p>
+        <a href="https://github.com/Jdcorrea17/Java-Capstone">GitHub</a> |
+        <a href="https://www.youtube.com/watch?v=xLitjkqh2ZY">Demo Video</a>
+      </article>
+
+      <article>
+        <h3>Summer Snow</h3>
         <div class="swiper">
-        <div class="swiper-wrapper">
-  
-            <div class="swiper-slide"><img src="./images/ra.png" alt="Image Not Found" class="donut"></div>
-            <div class="swiper-slide"><img src="./images/ra2.png" alt="Image Not Found" class="donut"></div>
-            <div class="swiper-slide"><img src="./images/ra3.png" alt="Image Not Found" class="donut"></div>
-            </div>
-            <div class="swiper-pagination"></div>
-  
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/ssl.png" alt="Summer Snow 1" /></div>
+            <div class="swiper-slide"><img src="./images/ssl2.png" alt="Summer Snow 2" /></div>
+            <div class="swiper-slide"><img src="./images/ssl3.png" alt="Summer Snow 3" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <br>
-    </div>    
-  </div>  
-  <br>
-    <div>
-        <h2>Connections</h2>
-        <div class="links">
-            <div>
-                <a href="./images/Resume.png"><ion-icon name="document-text-outline" class="git"></ion-icon></a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/joshua-correa-0405ab241/"><ion-icon name="logo-linkedin" class="link"></ion-icon></a>
-            </div>
-            <div>
-                <a href="https://github.com/Jdcorrea17"><ion-icon name="logo-github" class="git"></ion-icon></a>
-            </div>
+        <p>Landscaping business site with contact features and responsive design for a professional look.</p>
+        <a href="https://github.com/Jdcorrea17/Landscaping-LLC">GitHub</a>
+      </article>
+
+      <article>
+        <h3>Budget App (React)</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/ra.png" alt="Budget App 1" /></div>
+            <div class="swiper-slide"><img src="./images/ra2.png" alt="Budget App 2" /></div>
+            <div class="swiper-slide"><img src="./images/ra3.png" alt="Budget App 3" /></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-    </div>  
+        <p>React app to track expenses by year and month with dynamic UI and interactive charting.</p>
+        <a href="https://github.com/Jdcorrea17/React-Budget">GitHub</a>
+      </article>
+    </section>
 
-<br>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="https://formsubmit.co/aecc35a22bc1626ad34d9379b3233ebc" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" required />
 
-<div class="contact-bgc">
-    <div class="contact">
-        <h2>Contact Form</h2>
-        <form action="https://formsubmit.co/aecc35a22bc1626ad34d9379b3233ebc" method="POST">
-            <label  for="fname" class="label">Name</label>
-            <input type="text" name="name" placeholder="Your Name.." id="fname" required>
-            <label for="lname" class="label">Email</label>
-            <input type="text" name="email" placeholder="Your Email.." id="lname" required>
-            <label for="subject">Message</label>
-            <textarea type="text" id="subject" name="subject" placeholder="Write Message.." class="message-text"  required></textarea>
-            <button type="submit" class="sub-btn">Submit</button>
-        </form>
-    </div>
-</div>
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script>
-const swiper = new Swiper('.swiper', {
-  autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-},
-loop: true,
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
 
-pagination: {
-  el: '.swiper-pagination',
-  clickable: true,
-},
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 
-navigation: {
-  nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev',
-},
-});
-</script>
+  <footer>
+    <p>&copy; 2025 Joshua Correa | <a href="https://github.com/Jdcorrea17">GitHub</a> | <a href="https://www.linkedin.com/in/joshua-correa-0405ab241/">LinkedIn</a></p>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    const swipers = document.querySelectorAll('.swiper');
+    swipers.forEach(swiperEl => {
+      new Swiper(swiperEl, {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+        loop: true,
+        pagination: {
+          el: swiperEl.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+        navigation: {
+          nextEl: swiperEl.querySelector('.swiper-button-next'),
+          prevEl: swiperEl.querySelector('.swiper-button-prev'),
+        },
+      });
+    });
+  </script>
 </body>
 </html>

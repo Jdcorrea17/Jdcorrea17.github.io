@@ -45,29 +45,27 @@ main {
   margin-top: 2rem;
   flex-grow: 1;
 }
-
 section {
   margin-bottom: 4rem;
 }
 
 h2 {
-  font-weight: 800;
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.4rem;
   color: #000;
+  text-transform: uppercase;
 }
 
 h2::after {
   content: '';
   position: absolute;
-  width: 50px;
   height: 3px;
-  background: #007acc; /* subtle blue underline */
-  left: 0;
+  left: 10px;
   bottom: 0;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 /* Subheadings */
@@ -98,12 +96,16 @@ h3 {
   font-size: 1rem;
   color: #111;
   line-height: 1.5;
+  width: 100px;
 }
-.bio-section ul {
-  margin-top: 1rem;
-  list-style: disc inside;
+ul {
   color: #111;
-  font-weight: 500;
+  font-size: large;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+ li {
+  list-style: numeric;
 }
 .bio-section img.family {
   width: 100%;
@@ -112,23 +114,47 @@ h3 {
   object-fit: cover;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
-
-/* Skills icons */
-#skills .icons {
+.target {
+  height: 120px;
+  width: 120px;
+  margin-top: -25px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.goals{
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+  width: 65%;
+  margin: 0 auto;
 }
-#skills .icons img {
-  width: 50px;
-  height: 50px;
-  filter: grayscale(40%);
-  transition: filter 0.3s ease;
-  cursor: default;
+/* Skills icons */
+.skills{
+    /* border-style: solid; */
+    width: auto;
+    height: 100px;
 }
-#skills .icons img:hover {
-  filter: none;
+.frames {
+  height: 70px;
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.li_skill{
+    width: 240px;
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* Projects Section */
@@ -277,6 +303,7 @@ footer a:hover {
   text-decoration: underline;
   color: #004a80;
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {

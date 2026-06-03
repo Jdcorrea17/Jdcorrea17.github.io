@@ -96,16 +96,7 @@ body {
 
 .header .header-nav-list a:hover {
   color: var(--clr-white);
-  background: rgba(255,255,255,0.07);
-}
-
-.header .header-nav-list li:nth-child(3) a {
   background: linear-gradient(135deg, var(--clr-accent) 0%, #1d4ed8 100%);
-  color: #fff;
-  border-radius: var(--radius-sm);
-  padding: 8px 16px;
-  font-weight: 600;
-  box-shadow: 0 4px 14px rgba(37,99,235,0.3);
 }
 
 .header .header-nav-list li:nth-child(4) a {
